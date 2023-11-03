@@ -147,11 +147,12 @@ a{
 }
 
 .card h4{
-    font-size: 30px;
+    margin-inline: 10px;
+    font-size: 25px;
 }
 
 .card p{
-    font-size:20px;
+    margin-inline: 10px;
 }
 
 #contactme{
