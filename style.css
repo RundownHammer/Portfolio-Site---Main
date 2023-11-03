@@ -1,0 +1,266 @@
+html{
+
+}
+
+body{
+    margin: 0px;
+    width: 100vw;
+}
+
+a{
+    color: #0174BE;
+}
+
+
+#hero-section > div{
+  position: relative;
+  width: 100vw;
+}
+
+#hero-section img{
+    width: 100vw;
+}
+
+.dark-blue{
+    color: #0C356A;
+}
+
+.light-blue{
+    color: #0174BE;
+}
+
+#hero-section > div > div{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    height: 120px;
+    width: 230px;
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 40%;
+}
+
+#name{
+    font-family: 'Edu TAS Beginner',cursive;
+    font-size: 7vw;
+    color: #0C356A;
+    margin: 0px;
+}
+
+#mytitle{
+    font-family: Roboto Mono;
+    letter-spacing: 2px;
+    color: #0174BE;
+    margin-top: 10px;
+    margin-left: 5vw;
+    font-size: 4vw;
+}
+
+#pro{
+    color: #FFC436;
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    background-color: #f3f3ea;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5%;
+    font-family: 'Roboto mono', cursive;
+    font-weight: 600;
+    margin: 100px 0px 0px 20px;
+}
+
+.holder  img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.holder>div>h2>span{
+    color: #0C356A;
+}
+
+.holder>div>p>span{
+    color: #0174BE;
+    font-size: 20px;
+}
+
+.holder a{
+    color:#0174BE;
+}
+
+.holder>div>p{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.holder>div>h2{
+    margin-bottom: 0px;
+}
+
+#resume{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    font-family: 'open sans',cursive;
+    font-weight: 400;
+    text-align: left;
+}
+
+.holder.second > h2{
+    margin-bottom: 0px;
+}
+
+.achievements{
+    margin-top: 100px;
+    background-color: #f3f3ea;
+}
+
+.store{
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 20px;
+}
+
+.card{
+    background-color:wheat;
+    flex-basis: 30%;
+    display: flex;
+    border-radius: 5%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.card > div >img{
+    width: 100%;
+}
+
+.imgcontain{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.card h4{
+    font-size: 30px;
+}
+
+.card p{
+    font-size:20px;
+}
+
+#contactme{
+    padding: 20px ;
+    background-color: #f3f3ea;
+    margin: 100px 0px 20px 0px;
+}
+
+#contactme>div>img{
+    height: 75px;
+    padding-top: 10px;
+}
+
+#contactme h2{
+    font-size: 50px;
+    font-family: 'roboto mono';
+    font-weight: 900;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.logotitle{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logotitle > a{
+    font-family: 'roboto mono';
+    padding-left: 40px;
+    font-weight: 900;
+    color: #FFC436;
+}
+
+
+
+#fottor{
+    margin: 20px 0px 0px 0px;
+    height: 200px;
+    width: 100%;
+    background-color:#0174BE;
+}
+
+#fottor > div{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#fottor > div > a{
+    font-family: 'roboto mono', sans-serif;
+    color:aquamarine;
+    margin: 90px 20px 20px 20px;
+}
+
+#lastline{
+    text-align: center;
+    color: aquamarine;
+    font-size: 25px;
+    font-family: 'Edu TAS Beginner', monospace;
+    margin-inline: 10px;
+}
+
+@media (max-width :450px){
+
+
+    #hero-section > div> img{
+        height: auto;
+        width: 95vw;
+    }
+
+
+    #resume{
+        flex-direction: column;
+    }
+
+    .holder{
+        width: 70vw;
+        margin-left: 5vw;
+    }
+
+
+    #contactme > .logos{
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .logotitle{
+        display: none;
+    }
+
+    #lastline{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .store{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #fottor{
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+
+}
