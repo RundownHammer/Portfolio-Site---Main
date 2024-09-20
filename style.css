@@ -30,10 +30,9 @@ a{
     top: 1%;
     left: 1%;
     height: 120px;
-    width: 250px;
     margin-left: 30%;
     margin-top: 10%;
-    width: 40%;
+    width: 42%;
 }
 
 #name{
@@ -219,6 +218,7 @@ a{
 
 @media (max-width :500px){
 
+    
 
     #hero-section > div> img{
         height: auto;
